@@ -1,0 +1,29 @@
+{
+  "name": "filewatcherthing",
+  "version": "2.0.1",
+  "description": "a thing to watch a file and then run a command",
+  "bin": {
+    "filewatcherthing": "filewatcherthing.js",
+    "fwt": "filewatcherthing.js"
+  },
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/drylikov/filewatcherthing"
+  },
+  "keywords": [
+    "file",
+    "watcher",
+    "thing"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tap": "^1.2.0"
+  },
+  "dependencies": {
+    "glob": "^4.3.5"
+  }
+}
